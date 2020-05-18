@@ -11,11 +11,6 @@ import CRC8 "../src/CRC8";
 
 actor {
 
-  private type Test = {
-    data : [Word8];
-    expect : [Word8];
-  };
-
   private let tests = [
     {
       data = [
