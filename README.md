@@ -4,5 +4,4 @@
 
 ### Overview
 
-This package implements cyclic redundancy checks for the Motoko programming
-language.
+This package implements cyclic redundancy checks.
