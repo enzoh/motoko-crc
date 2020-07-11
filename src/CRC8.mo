@@ -46,6 +46,7 @@ module {
     230, 225, 232, 239, 250, 253, 244, 243,
   ];
 
+  // Calculate an 8-bit cyclic redundancy check.
   public func crc8(data : [Word8]) : Word8 {
     var result : Word8 = 0;
     for (byte in data.vals()) {

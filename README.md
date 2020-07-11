@@ -1,7 +1,17 @@
-## The Motoko CRC Package
+## The CRC Package
 
-[![Build Status](https://travis-ci.org/enzoh/motoko-crc.svg?branch=master)](https://travis-ci.org/enzoh/motoko-crc?branch=master)
+[![Build Status](https://github.com/enzoh/motoko-crc/workflows/build/badge.svg)](https://github.com/enzoh/motoko-crc/actions?query=workflow%3Abuild)
 
-### Overview
+This package implements cyclic redundancy checks for the Motoko programming language.
 
-This package implements cyclic redundancy checks.
+### Prerequisites
+
+- [DFINITY SDK](https://sdk.dfinity.org/docs/download.html) v0.5.11
+- [Vessel](https://github.com/kritzcreek/vessel/releases/tag/v0.4.1) v0.4.1 (Optional)
+
+### Usage
+
+Calculate an 8-bit cyclic redundancy check.
+```motoko
+public func crc8(data : [Word8]) : Word8
+```
