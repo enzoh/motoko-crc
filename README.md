@@ -15,3 +15,8 @@ Calculate an 8-bit cyclic redundancy check.
 ```motoko
 public func crc8(data : [Word8]) : Word8
 ```
+
+Calculate a 32-bit cyclic redundancy check.
+```motoko
+public func crc32(data : [Nat8]) : [Nat8]
+```
